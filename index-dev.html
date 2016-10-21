@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello scala.js!</title>
+</head>
+<body>
+    <!-- Include Scala.js compiled code -->
+    <script type="text/javascript" src="./target/scala-2.11/hello-scala-js-fastopt.js"></script>
+    <!-- Run tutorial.webapp.TutorialApp -->
+    <script type="text/javascript">
+      tutorial.webapp.TutorialApp().main();
+    </script>
+    <button id="click-me-button" type="button"
+            onclick="tutorial.webapp.TutorialApp().addClickedMessage()">Click me!</button>
+</body>
+</html>
